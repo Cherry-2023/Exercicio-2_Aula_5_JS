@@ -8,8 +8,10 @@ let ptsobrenome2 = prompt('Digite o Sobrenome da segunda pessoa')
 let ptidade2 = prompt('Digite o Idade da segunda pessoa')
 let ptestatura2 = prompt('Digite o Estatura da segunda pessoa')
 let ptcor2 = prompt('Digite o Cor favorito da segunda pessoa')
-Number(ptidade)
-Number(ptestatura)
+Number(ptidade);
+Number(ptestatura);
+Number(ptidade2);
+Number(ptestatura2);
 if (ptidade > ptidade2) {
     console.log(`${ptnome} é mais velho/a que ${ptnome2}`)
 } else {
